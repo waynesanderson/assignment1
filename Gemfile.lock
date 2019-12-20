@@ -2,10 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     mime-types (2.3)
-    rack (1.6.12)
-    rack-protection (1.5.3)
-      rack
-    rest-client (1.6.7)
+    rack >= (1.6.12)
+    rack-protection >= 1.5.5
+    rest-client >= (1.7.3)
       mime-types (>= 1.16)
     sinatra (1.4.5)
       rack (~> 1.4)
